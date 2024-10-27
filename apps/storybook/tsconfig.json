@@ -1,7 +1,6 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl":"./",
     "jsx": "preserve",
     "allowJs": true,
     "esModuleInterop": true,
@@ -18,7 +17,6 @@
       }
     ],
     "types": ["jest", "node"],
-    "moduleResolution": "NodeNext",
   },
   "include": [
     "**/*.ts",
