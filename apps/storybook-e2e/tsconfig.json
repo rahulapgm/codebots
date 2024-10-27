@@ -3,7 +3,7 @@
   "compilerOptions": {
     "allowJs": true,
     "outDir": "../../dist/out-tsc",
-    "module": "ES2015",
+    "moduleResolution": "NodeNext",
     "sourceMap": false
   },
   "include": [
