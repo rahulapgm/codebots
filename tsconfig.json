@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext"
+  },
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
