@@ -2,7 +2,12 @@
   "name": "@codebots/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "storybook": "NODE_CONFIG_ENV=dev NODE_TLS_REJECT_UNAUTHORIZED=0 nx run storybook:start",
+    "build-storybook": "npm run clean && nx run storybook:build",
+    "serve-storybook": "npm run build-storybook && nx run storybook:serve:production",
+    "clean": "nx clear-cache"
+  },
   "private": true,
   "dependencies": {
     "@fastify/autoload": "~5.7.1",
