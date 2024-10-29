@@ -31,8 +31,11 @@
     "target": "es2022",
     "verbatimModuleSyntax": false,
     "paths": {
-      "@codebots/components-lib": ["libs/components-lib/src/index.ts"],
-      "@codebots/components-lib/server": ["libs/components-lib/src/server.ts"],
+      "@codebots/atomics": ["libs/atomics/src/index.ts"],
+      "@codebots/global-theme-provider": [
+        "libs/global-theme-provider/src/index.ts"
+      ],
+      "@codebots/hooks-and-hoc": ["libs/hooks-and-hoc/src/index.ts"],
       "@codebots/storybook-core": ["libs/storybook-core/src/index.ts"],
       "@codebots/storybook-core/server": ["libs/storybook-core/src/server.ts"]
     }

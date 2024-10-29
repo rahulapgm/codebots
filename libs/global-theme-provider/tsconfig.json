@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "baseUrl":"./src",
+    "baseUrl": "./src",
     "jsx": "react-jsx",
+    "lib": ["es5", "es6", "dom"],
     "allowJs": false,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "module": "ESNext"
+    "strict": true
   },
   "files": [],
   "include": [],

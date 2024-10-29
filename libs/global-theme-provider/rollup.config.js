@@ -5,9 +5,9 @@ const svg = require('@svgr/rollup');
 module.exports = withNx(
   {
     main: './src/index.ts',
-    outputPath: '../../dist/libs/components-lib',
+    outputPath: '../../dist/libs/global-theme-provider',
     tsConfig: './tsconfig.lib.json',
-    compiler: 'swc',
+    compiler: 'babel',
     external: ['react', 'react-dom', 'react/jsx-runtime'],
     format: ['esm'],
     assets: [{ input: '.', output: '.', glob: 'README.md' }],

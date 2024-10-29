@@ -81,7 +81,9 @@
       }
     },
     "@nx/react": {
-      "library": {}
+      "library": {
+        "unitTestRunner": "none"
+      }
     }
   }
 }
