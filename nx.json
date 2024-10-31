@@ -61,6 +61,14 @@
       "options": {
         "buildTargetName": "build"
       }
+    },
+    {
+      "plugin": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
     }
   ],
   "targetDefaults": {
@@ -82,7 +90,18 @@
     },
     "@nx/react": {
       "library": {
+        "style": "tailwind",
+        "linter": "eslint",
         "unitTestRunner": "none"
+      },
+      "application": {
+        "babel": true,
+        "style": "tailwind",
+        "linter": "eslint",
+        "bundler": "webpack"
+      },
+      "component": {
+        "style": "tailwind"
       }
     }
   }
